@@ -2,7 +2,10 @@ package main
 
 import "fmt"
 import "os/exec"
-
+func init() {
+	fmt.Println("helllo, there!")
+}
 func main() {
-	cmd := exec.Command(name:"date")
+	cmd := exec.Command("uname -a")
+	cmd.Run()
 }
