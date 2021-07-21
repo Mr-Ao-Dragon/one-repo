@@ -4,5 +4,5 @@ import "fmt"
 import "os/exec"
 
 func main() {
-	cmd:= exec.Command(name:"date")
+	cmd := exec.Command(name:"date")
 }
