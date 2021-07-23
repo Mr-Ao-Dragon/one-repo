@@ -9,5 +9,5 @@ import "os/exec"
 func main() {
 	cmd := exec.Command("date")
 	out,_ := cmd.CombinedOutput()
-	fmt.Println("%s",out)
+	fmt.Printf("%s",out)
 }
