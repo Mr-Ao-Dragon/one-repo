@@ -4,8 +4,8 @@ import "fmt"
 
 var (
 	testecho string
-	true      bool
-	no        int
+	true     bool
+	no       int
 )
 
 func main() {
@@ -15,4 +15,7 @@ func main() {
 	no++
 	fmt.Println("hey_bro:", testecho)
 	fmt.Println("hey_bro:", no)
+	/*if true = false {
+			fmt.Println("True is false")
+	}*/
 }
